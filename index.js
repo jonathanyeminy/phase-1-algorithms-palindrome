@@ -1,9 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if(word === word.split("").reverse().join("")) {
+  return true
+  }
+  else return false
 }
 
 /* 
   Add your pseudocode here
+  The algorithm should go through each first and last letter in a loop until it reaches the middle.
+  If all letters match, true 
 */
 
 /*
